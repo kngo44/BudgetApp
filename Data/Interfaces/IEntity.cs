@@ -1,7 +1,7 @@
 ﻿
 namespace Data.Interfaces
 {
-    public interface IEntry
+    public interface IEntity
     {
         Guid ID { get; set; }
         string Name { get; set; }

@@ -2,7 +2,7 @@
 
 namespace Data.Models
 {
-    public class Account : IEntry
+    public class Account : IEntity
     {
         public Guid ID { get; set; }
         public string Name { get; set; } = String.Empty;

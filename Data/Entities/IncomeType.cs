@@ -2,7 +2,7 @@
 
 namespace Data.Models
 {
-    public class IncomeType : IEntry
+    public class IncomeType : IEntity
     {
         public Guid ID { get; set; } 
         public string Name { get; set; } = String.Empty;
