@@ -1,4 +1,13 @@
-.vs/
-bin/
-obj/
-*.obj
+# .NET
+**/bin/
+**/obj/
+**/.vs/
+*.user
+
+# Node
+**/node_modules/
+**/dist/
+*.log
+
+# IDE
+.vscode/
