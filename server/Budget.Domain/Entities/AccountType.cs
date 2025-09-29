@@ -1,11 +1,13 @@
-﻿using Data.Interfaces;
+﻿using Budget.Domain.Interfaces;
 
-namespace Data.Models
+namespace Budget.Domain.Entities
 {
     public class AccountType : IEntity
     {
-        public Guid ID { get; set; } 
-        public string Name { get; set; } = String.Empty;
+        public Guid Id { get; set; } 
+        public string TypeName { get; set; } // Bank, Credit, Savings, Investment
+        public string Description { get; set; }
+        public bool IsActive { get; set; }
         public DateTime CreatedDate { get; set; }
     }
 }
